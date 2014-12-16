@@ -1,4 +1,4 @@
-NAME =	moul/dracut-dev
+NAME =	armbuild/dracut
 
 build:	Dockerfile
 	docker build -t $(NAME) .

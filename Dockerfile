@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie
+FROM armbuild/buildpack-deps:jessie
 
 RUN export DEBIAN_FRONTEND=noninteractive \
  && apt-get -q update \
